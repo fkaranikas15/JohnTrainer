@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Trainer-Start Workout now</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <video autoplay muted loop id="hero-video">
+      <source src="Exercise.mp4" type="video/mp4" />
+    </video>
+
+    <header class="section-head">
+      <p class="logo-text">Trainer John</p>
+      <nav class="navigation">
+        <a class="nav-link" href="#">About me</a>
+        <a class="nav-link" href="#">My work</a>
+        <a class="nav-link" href="#">Packages</a>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main class="container">
+      <section class="section-hero">
+        <div>
+          <h1 class="heading-primary">Get fit don't quit</h1>
+          <p class="hero-text">
+            "Fitness is not about being better than someone else...It's about
+            being better than you used to be."
+          </p>
+        </div>
+        <div class="btn-section">
+          <a class="btn btn-black" href="#">Start Workout</a>
+          <a class="btn btn-white" href="#">Learning +</a>
+        </div>
+      </section>
+
+      <section class="section-about">
+        <h2 class="heading-secondary">About me</h2>
+        <div class="bio-box">
+          <div class="img-box">
+            <img class="img" src="img/john.jpg" alt="John photo" />
+          </div>
+          <div class="text-box">
+            <p class="heading-third">Giannis Alexandrakis</p>
+            <p class="text">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              molestiae optio, repellat a vel nisi qui eligendi velit!
+              Recusandae vitae facilis eveniet fuga ipsa, nam quis commodi
+              excepturi qui pariatur?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Animi maiores harum soluta ratione assumenda
+              libero natus hic ea reprehenderit, fuga architecto perspiciatis
+              eligendi numquam consequatur neque, sunt laboriosam officiis
+              blanditiis."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-mywork">
+        <h2 class="heading-secondary">My work</h2>
+        <div class="grid--2-cols">
+          <div class="work-text-box">
+            <p class="work-number-text">01</p>
+            <p class="heading-third">
+              Personal Football Trainer for Ages : 6-15 y.o.
+            </p>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium a repellendus facere officia aliquam est culpa maxime
+              veritatis tenetur, odit aspernatur in dolore, ex voluptate.
+              Blanditiis veritatis quae ipsa doloremque!
+            </p>
+          </div>
+          <div class="work-img-box">
+            <img
+              class="work-img"
+              src="img/children.jpg"
+              alt="children play Football"
+            />
+          </div>
+          <div class="work-text-box">
+            <p class="work-number-text">02</p>
+            <p class="heading-third">Coach at the AE Chalandiou academies</p>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium a repellendus facere officia aliquam est culpa maxime
+              veritatis tenetur, odit aspernatur in dolore, ex voluptate.
+              Blanditiis veritatis quae ipsa doloremque!
+            </p>
+          </div>
+          <div class="work-img-box">
+            <img
+              class="work-img"
+              src="img/coach.jpg"
+              alt="children play Football"
+            />
+          </div>
+          <div class="work-text-box">
+            <p class="work-number-text">03</p>
+            <p class="heading-third">Personal trainer</p>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium a repellendus facere officia aliquam est culpa maxime
+              veritatis tenetur, odit aspernatur in dolore, ex voluptate.
+              Blanditiis veritatis quae ipsa doloremque!
+            </p>
+          </div>
+          <div class="work-img-box">
+            <img
+              class="work-img"
+              src="img/personal.jpg"
+              alt="children play Football"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-packages">
+        <h2 class="heading-secondary text-align">Packages</h2>
+        <div class="grid--2-cols column-gap">
+          <div class="package-box">
+            <p class="heading-third">Football Training</p>
+            <p class="price-text">$399<span>/ month</span></p>
+            <p class="package-text">That's only 25$ per workout</p>
+            <ul class="package-list">
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>4 Workouts per week</p>
+              </li>
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>Specialized equipment</p>
+              </li>
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>Meeting with well-known athletes</p>
+              </li>
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>Nutrition plan</p>
+              </li>
+            </ul>
+            <a class="btn btn-book" href="#">BOOK NOW</a>
+          </div>
+          <div class="package-box">
+            <p class="heading-third">Personal Training</p>
+            <p class="price-text">$599<span>/ month</span></p>
+            <p class="package-text">That's only 30$ per workout</p>
+            <ul class="package-list">
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>5 Workouts per week</p>
+              </li>
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>Specialized equipment</p>
+              </li>
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>Advanced training program</p>
+              </li>
+              <li class="item-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+                <p>Nutrition plan</p>
+              </li>
+            </ul>
+            <a class="btn btn-book" href="#">BOOK NOW</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer">
+      <div class="container footer-box">
+        <div class="left-section">
+          <a href="#" class="footer-text">About me</a>
+          <a href="#" class="footer-text">My Work</a>
+          <a href="#" class="footer-text">Packages</a>
+        </div>
+        <div class="right-section">
+          <a href="#" class="footer-text">
+            <ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" class="footer-text">
+            <ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#" class="footer-text">
+            <ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a href="#" class="footer-text">
+            <ion-icon name="logo-google"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <p class="text-copyright">Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+/* ///////////////////// */
+/* SECTION HEADER */
+/* ///////////////////// */
+.section-head {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  height: 9rem;
+}
+
+.logo-text {
+  font-size: 2.4rem;
+  letter-spacing: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.navigation {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #cfcfcf;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: white;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* ///////////////////// */
+/* SECTION HERO */
+/* ///////////////////// */
+.section-hero {
+  padding: 9.6rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+  height: 75vh;
+}
+
+.hero-text {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.btn-section {
+  justify-self: end;
+  display: flex;
+  gap: 2.4rem;
+}
+
+/* ///////////////////// */
+/* SECTION ABOUT */
+/* ///////////////////// */
+
+.section-about {
+  padding: 4.8rem 0;
+}
+
+.bio-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.img {
+  width: 25%;
+
+  transition: all 0.3s;
+}
+.img:hover {
+  transform: scale(1.2);
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-box::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(35%, -50%);
+  background-color: white;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.3);
+  width: 60%;
+  padding-bottom: 30%;
+  z-index: -1;
+}
+
+/* ///////////////////// */
+/* SECTION MY WORK */
+/* ///////////////////// */
+
+.section-mywork {
+  padding: 9.6rem 0;
+}
+
+.work-number-text {
+  font-size: 6.4rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  margin-bottom: 2.4rem;
+  color: #9cccbd;
+}
+
+.work-img-box {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.work-img {
+  width: 60%;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+.work-img:hover {
+  transform: scale(1.2);
+}
+
+/* ///////////////////// */
+/* SECTION PACKAGES */
+/* ///////////////////// */
+
+.section-packages {
+  padding: 9.6rem 0;
+}
+
+.package-box {
+  padding: 4.8rem 3.2rem;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-text {
+  font-size: 6.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.price-text span {
+  font-size: 2rem;
+  color: #065940;
+}
+
+.package-text {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.package-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.item-list {
+  font-size: 2rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.icon {
+  width: 2rem;
+  stroke: #065940;
+}
+
+.btn-book:link,
+.btn-book:visited {
+  background-color: #065940;
+  color: white;
+}
+
+.btn-book:hover,
+.btn-book:active {
+  background-color: #066649;
+}
+
+/* ///////////////////// */
+/* SECTION FOOTER */
+/* ///////////////////// */
+
+.section-footer {
+  margin-top: 4.8rem;
+  padding: 4.8rem 0;
+  background-color: #333;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.footer-text:link,
+.footer-text:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+
+.footer-text:hover,
+.footer-text:active {
+  color: #cfcfcf;
+}
+
+.text-copyright {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
